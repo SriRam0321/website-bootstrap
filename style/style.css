@@ -1,0 +1,430 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+font-family: 'Poltawski Nowy', serif;
+	
+}
+
+.rounded-circle{
+	height:40px;	
+	width:40px;
+    background-color:#2a2a2a;
+	
+}
+
+
+.opacity{
+	background-color:black;
+	opacity:0.8;
+	    position: fixed !important;
+    top: 0 !important;
+    z-index: 999!important;
+}
+	
+
+.nav-item a{
+	position:relative;
+}
+.nav-item:hover a::after{
+	transform:scalex(1);
+	transform-origin:bottom left;
+}
+.nav-item a::after{
+	position:absolute;
+	content:"";
+	width:85%;
+	height:2px;
+	bottom:0;
+	left:10px;
+	background-color:green;
+	transform:scalex(0);
+	transform-origin:bottom right;
+	transition:transform 0.4s ease-in-out;
+}
+
+
+
+.slide{
+	background:linear-gradient(#00000082,#00000082),url("img/slide/slide-1.jpg");
+	height:100vh;
+	z-index:0;
+	background-position:cover;
+	}
+	
+.slide1{
+	background:linear-gradient(#00000082,#00000082),url("img/slide/slide-2.jpg");
+	height:100vh;
+    background-position:cover; 
+}
+	
+.slide2{
+	background:linear-gradient(#00000082,#00000082),url("img/slide/slide-3.jpg");
+	height:100vh;
+	background-position:cover;
+}
+.z-ind{
+	z-index:-1 !important;
+}
+	
+.slide-relative{
+	position:relative;
+}
+
+
+.slide-absolute{
+	position:absolute;
+	top:30%;
+	left:50%;
+	bottom:0 !important;
+	color:white !important;
+}
+
+.icon{
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: #5c9f24;
+    overflow: hidden;
+    box-shadow: 0px 0 25px rgba(0, 0, 0, 0.15);
+}
+
+.title{
+	font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 18px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.box{
+	
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+}
+
+.box span{
+	display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #8ed851;
+}
+
+#portfolio-filters{
+	padding: 0;
+    margin: 0 auto 20px auto;
+    list-style: none;
+    text-align: center;
+}
+
+.justify-content-center{
+    justify-content: center!important;
+}
+
+.filter-active{
+	    color: #fff;
+    background: #5c9f24;
+}
+
+.walter{
+	position:relative;
+    
+  
+}
+.teams{
+	opacity:0;
+	position:absolute;
+    top:0px;
+	transform:translate(50px,50px);
+	transition: all 0.2s ease-in;
+}
+
+.walter:hover .teams{
+	opacity:1;
+	transform:translate(50px,70px);
+    transition: all 0.3s ease-in;
+}
+
+.walter {
+	background-color:black;
+    transition: all 0.2s ease-in;
+}
+
+.walter:hover img{
+	opacity:0.4;
+	transition: all 0.2s ease-in;
+}
+
+.images img{
+	transition: all 0.2s ease-in;
+}
+
+.social i:hover {
+	color:green!important;
+}
+
+.list{
+	list-style:none;
+}
+
+h4 span{
+	color:black;
+}
+.btn-buy{
+	border:2px solid green;
+	color:green;
+}
+
+.btn-wrap a:hover{
+	background-color:green;
+	color:white;
+	transition: all 0.3s ease-in-out;
+}
+
+.boxs{
+	background-color:#f7f7f7;
+}
+
+.btn-wraps a:hover{
+	background-color:white;
+	color:green;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.btn-buys{
+	border:2px solid white;
+	color:white;
+}
+
+.boxes{
+	background-color:#5c9f24;
+}
+
+.lists{
+	color:white;
+}
+
+.contact-address h3{
+	color:gray;
+}
+
+.contacts{
+	border-right:1px solid #ccc;
+}
+
+.contacts1{
+	border-right:1px solid #ccc;
+}
+
+.inputs input{
+	width:100%;
+}
+
+.inputs-1 input{
+	display:inline-block;
+	width:100%;
+    padding:100px 0px;
+}
+
+.button a{
+	text-decoration:none;
+	border:1px solid green!important;
+	color:white!important;
+	background-color:#5c9f24;
+    padding:10px 20px;
+}
+
+.button a:hover{
+	background-color:#76d129;
+	color:white;
+    transition:all 0.3s ease-in-out;
+}
+
+li i{
+	color:green;
+}
+
+li a{
+	text-decoration:none;
+	color:white;
+}
+
+.input2 a{
+	color:white;
+	background-color:#5c9f24;
+    padding:8px 20px;
+}
+
+.input2{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+    background-color:white;
+    width:75%;
+}
+
+.leo{
+	width:58%;
+    margin-left:10px;
+	border:none;
+}
+
+.ico i:hover{
+	color:green !important;
+	transition:all 0.3s ease-in-out;
+}
+
+.hover:hover .box{
+	background-color:#8ed851;
+	color:white;
+}
+
+.hover:hover span{
+	color:white!important;
+}
+
+.title h3{
+	position:relative;
+}
+
+.title h3::after{
+    position:absolute;
+    content:"";
+    top:50px;
+    left:130px;
+    background-color:green;
+    width:65px;
+    height:2px;
+}
+
+.bang img{
+	filter:grayscale(100);
+}
+
+.bang  img:hover{
+	filter:grayscale(0);
+    transition: all 0.3s ease-in-out;
+	transform: scale(1.1)
+}
+
+.pack i{
+	color:#5c9f24;
+}
+
+.icons i{
+	color:#5c9f24;
+}
+
+.box:hover span{
+	transform:translatey(-20px);
+	transition:all 0.3s ease-in-out;
+    color:white;
+}
+.box span{
+	
+	transition:all 0.3s ease-in-out;
+    
+}
+
+.box:hover h4{
+	transform:translatey(-20px);
+    transition:all 0.3s ease-in-out;
+    color:white;
+}
+.box h4{
+    transition:all 0.3s ease-in-out;
+
+}
+
+.box:hover p{
+	transform:translatey(-20px);
+    transition:all 0.3s ease-in-out;
+	color:white;
+}
+
+.box p{
+	transition:all 0.3s ease-in-out;
+}
+
+.ico i:hover{
+	background-color:#5c9f24;
+	color:white!important;
+}
+	
+.accordion-button{
+    background-color:white!important  ;
+}	
+
+.boxs ul{
+	padding:0px!important;
+}
+
+.boxes ul{
+	padding:0px!important;
+}
+
+.img:hover img{
+	transition: all 0.3s ease-in-out;
+	transform: scale(1.1);
+}
+
+.img{
+    overflow:hidden;
+}
+
+.socials a{
+	text-decoration:none;
+	color:white;
+}
+
+.socials:hover i{
+	color:green;
+}
+
+
+.img{
+	position:relative;
+    
+  
+}
+.contest{
+	opacity:0;
+	position:absolute;
+    top:0px;
+	transform:translate(50px,50px);
+	transition: all 0.2s ease-in;
+	color:white;
+}
+
+.img:hover .contest{
+	opacity:1;
+	transform:translate(50px,70px);
+    transition: all 0.3s ease-in;
+}
+
+.img{
+	background-color:black;
+    transition: all 0.2s ease-in;
+}
+
+.img:hover img{
+	opacity:0.4;
+	transition: all 0.2s ease-in;
+}
+
+.contest span{
+	color:#ccc;
+    font-style:italic;
+}
+
+.social a{
+	text-decoration:none;
+}
